@@ -68,14 +68,15 @@
                 <img class="apprenant-avatar"
                      :src="apprenant.pw_avatar"
                      :alt="apprenant.alt_pw_avatar">
-
             </div>
-
             <div class="back styleBack" @click="showMyModal = true"  >
-                <div class="div-name">
+                <div class="div-name-back">
                     <h6 class="apprenant-name-back">{{ apprenant.nom }}<br /><small><b>- {{apprenant.ville }} -</b></small></h6>
                 </div>
-                <div class="apprenant-avatar" @click="setCurrentApprenant(apprenant)">
+                <div class="apprenant-avatar-dos" @click="setCurrentApprenant(apprenant)">
+                    <video class="videoBG" poster="poster.JPG" autoplay muted loop>
+                        <source :src="apprenant.video" type="video/mp4">
+                    </video>
                         <img class="apprenant-avatar-dos"
                              :src="apprenant.avatar"
                              :alt="apprenant.alt_avatar">
