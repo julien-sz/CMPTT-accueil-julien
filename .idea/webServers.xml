@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8684ccb4-63ce-4a56-b7ce-d3cc95754252" name="CMPTT accueil" url="http://julien.cmptt.com/accueil-cmptt">
+        <fileTransfer host="julien.cmptt.com" port="21" rootFolder="/accueil-cmptt">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
