@@ -4,7 +4,7 @@
 .logo-cmptt {
     max-width:300px;
     margin-bottom:0em;
-    margin-top: 1.5em;
+    margin-top: 1.7em;
 }
 
 .img-fluid {
@@ -14,12 +14,13 @@
 }
 
 body {
-  background-color: #e94b4a;
+    background-color: #e94b4a;
+    line-height: 1;
 }
 
 .head-color {
     background-color: #222222;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     padding-bottom: 1em;
     width: 100%;
 }
@@ -68,8 +69,6 @@ h1 {
     position: fixed;
     z-index: 5;
     width: 100%;
-
-
 }
 /* ----------------------------------------------------  Cards apprenants ------------------------------------- */
 .flipcard {
@@ -177,6 +176,7 @@ h1 {
     flex-flow: row wrap;
     width: 100%;
     max-width: 100%;
+    padding: 0;
 }
 
 .apprenant-avatar {

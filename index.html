@@ -57,7 +57,6 @@
 
         <div class="promo">PROMO 2020</div>
         <div  class="flipcard h" v-for="apprenant in apprenants"  @click="activate(apprenant.id)" :class="{ flip : flipID == apprenant.id }">
-
             <div class="front styleFront">
                 <div class="div-name">
                     <h6 class="apprenant-name">{{ apprenant.pw_nom }}<br /><small><b>- {{apprenant.ville }} -</b></small></h6>
@@ -80,7 +79,6 @@
                         <img class="apprenant-avatar-dos"
                              :src="apprenant.avatar"
                              :alt="apprenant.alt_avatar">
-
                 </div>
             </div>
         </div>
