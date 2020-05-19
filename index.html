@@ -55,7 +55,13 @@
     <div class="container">
 
 
-        <div class="promo">PROMO 2020</div>
+        <div class="promo">
+            PROMO 2020
+            <p>Jeunes Developpeurs Web en formation<br>
+                Nous développons<br> sous Ubuntu & Windows<br>
+                LAMP / WAMP<br>HTML / CSS<br> PHP<br> MySQL<br> Vue.js<br> Javascript
+            </p>
+        </div>
         <div  class="flipcard h" v-for="apprenant in apprenants"  @click="activate(apprenant.id)" :class="{ flip : flipID == apprenant.id }">
             <div class="front styleFront">
                 <div class="div-name">
